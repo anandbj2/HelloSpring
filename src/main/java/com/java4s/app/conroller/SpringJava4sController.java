@@ -18,6 +18,7 @@ public class SpringJava4sController {
 	@RequestMapping("/")
 	public String welcome() {
 		//return springDAO.getUserList();
+		
 		return "Welcome to Spring Boot Tutorials";
 	}
 	
